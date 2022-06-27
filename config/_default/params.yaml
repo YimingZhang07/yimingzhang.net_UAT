@@ -15,10 +15,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Project
+    site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo notes theme powered by Wowchemy website builder.'
+    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
     twitter: 'wowchemy'
   analytics:
     google_analytics: ''
@@ -31,8 +31,8 @@ marketing:
 
 header:
   navbar:
-    enable: false
-    align: l
+    enable: true
+    align: r
     show_logo: true
     show_language: false
     show_day_night: true
@@ -41,11 +41,11 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Yiming Zhang. All Rights Reserved.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
@@ -53,21 +53,30 @@ footer:
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
+  address_format: en-us
 
 # Site features
 
 features:
   syntax_highlighter:
-    theme_day: github-light
-    theme-dark: dracula
+    enable: true
+    extra_languages:
+      - r
+      - latex
+      - python
   math:
-    enable: false
+    enable: true
+  diagram:
+    enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/wowchemy/hugo-notes-theme'
+    url: 'https://github.com/<username>/<repository>'
     content_dir: content
-    branch: main
+    branch: master
+  avatar:
+    gravatar: false
+    shape: circle
   comment:
     provider: ''
     disqus:
@@ -82,3 +91,21 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 15
+
+# Extensions
+
+extensions:
+  cms:
+    branch: master
+    local_backend: false
+  isotope:
+    # Enable if you use the Portfolio widget or Publication filter
+    enable: true
+  academicons:
+    enable: true
+
+# plugins_css: ["custom.css"]
