@@ -51,6 +51,15 @@ Some of the pages embed the `html` or `pdf` files in a `iFrame` window, it will 
 
 Instead of using the `iFrame` to embed the pdf. Here we adopt the adobe API. To shorten the code, we introduce the `\layouts\shortcodes` that provides a template for a block of codes.
 
+```html
+<iframe
+      src="./investment_idea.pdf"
+      width="100%"
+      height="600px"
+      style="border:none;">
+</iframe>
+```
+
 The Adobe API is domain specific, so the `localhost` and `netlify.app` domains need two separate APIs. The short code could have a `if/else` statement to distinguish the domain and choose the right API. In the `adobe_inline.html` file, we provide the following logic to see if the current server is ran by `hugo server`.
 
 ```javascript

@@ -42,14 +42,7 @@ Click to preview with your browser or download it. Only the first deck is embedd
 
 :arrow_right:[Opportunities in Fixed Income Market](./investment_idea.pdf) April 2022, advocating some investment chances for fixed income
 
-```
-<iframe
-      src="./investment_idea.pdf"
-      width="100%"
-      height="600px"
-      style="border:none;">
-</iframe>
-```
+{{<adobe_inline "investment_idea.pdf">}}
 
 :arrow_right:[Shifting Stars](./shifting_stars.pdf) a view of monetary policy. How does the Fed measure if the economy is overheating or not?
 
@@ -58,26 +51,3 @@ Click to preview with your browser or download it. Only the first deck is embedd
 :arrow_right:[Inverted Yield Curve](./inverted_yield_curve.pdf) an indicator to the economic recession
 
 :arrow_right:[Recursion and Iteration](./recursion.pdf) a vivid explanation of the computer science terminologies
-
-<div id="adobe-dc-view" style="height: 600px; width: 800px;"></div>
-<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-<script type="text/javascript">
-    document.addEventListener("adobe_dc_view_sdk.ready", function() {
-        var adobeDCView = new AdobeDC.View({
-            clientId: "96f91038b3ee4fb4895d9478258809fb",
-            divId: "adobe-dc-view"
-        });
-        adobeDCView.previewFile({
-            content: {
-                location: {
-                    url: "./investment_idea.pdf"
-                }
-            },
-            metaData: {
-                fileName: "investment_idea.pdf"
-            }
-        }, {
-            embedMode: "SIZED_CONTAINER"
-        });
-    });
-</script>
