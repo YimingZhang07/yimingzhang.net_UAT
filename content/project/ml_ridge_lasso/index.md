@@ -17,7 +17,7 @@ url_video: ''
 
 <body>
 
-  <p>Open the page below in a separate page, <a href="./02 Linear Regression Ridge Lasso.html">click here</a>.</p>
+<p>Open the page below in a separate page, <a href="./02 Linear Regression Ridge Lasso.html">click here</a>.</p>
 
 </body>
 

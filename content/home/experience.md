@@ -22,6 +22,16 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Summer Associate
+    company: J.P. Morgan
+    company_url: 'https://www.jpmorgan.com/global'
+    company_logo: 'jpm_logo'
+    location: New York
+    date_start: '2022-06-01'
+    date_end: ''
+    description: |2-
+        * LightGBM for CMBS prepayment modeling
+
   - title: Master of Science in Computational Finance (MSCF)
     company: Carnegie Mellon University
     company_url: 'https://www.cmu.edu/mscf/'

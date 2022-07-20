@@ -25,7 +25,7 @@ content:
 
 design:
     columns: '2'
-    view: 3
+    view: 2
     flip_alt_rows: true
     background: {}
   # spacing: {padding: [0, 0, 0, 0]}

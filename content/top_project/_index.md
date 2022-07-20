@@ -2,7 +2,7 @@
 title: Featured Content
 type: page
 
-view: compact
+view: Compact
 
 header:
   caption: ''

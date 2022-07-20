@@ -42,12 +42,16 @@ Click to preview with your browser or download it. Only the first deck is embedd
 
 :arrow_right:[Opportunities in Fixed Income Market](./investment_idea.pdf) April 2022, advocating some investment chances for fixed income
 
+{{<adobe_inline "investment_idea.pdf">}}
+
+```
 <iframe
       src="./investment_idea.pdf"
       width="100%"
       height="600px"
       style="border:none;">
 </iframe>
+```
 
 :arrow_right:[Shifting Stars](./shifting_stars.pdf) a view of monetary policy. How does the Fed measure if the economy is overheating or not?
 

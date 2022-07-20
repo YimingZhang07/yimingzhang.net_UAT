@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Yiming Zhang # Website name
-baseurl: 'https://www.yimingzhang.net/' # Website URL
+baseurl: "https://www.yimingzhang.net/" # Website URL
 
 ############################
 ## LANGUAGE
@@ -42,10 +42,10 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  event: "/talk/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+  publication_types: "/publication-type/:slug/"
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -62,6 +62,10 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
 related:
   threshold: 80
   includeNewer: true

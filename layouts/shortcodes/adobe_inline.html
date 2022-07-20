@@ -1,0 +1,51 @@
+<!-- adobe developer console: https://developer.adobe.com/console/projects -->
+<!-- hugo shortcodes: https://gohugo.io/templates/shortcode-templates/ -->
+<!-- netlify domain token: 96f91038b3ee4fb4895d9478258809fb -->
+<!-- localhost domain token: 2f4f441ef6f741d988a5fcf60d418dd1 -->
+
+{{if .Site.IsServer}}
+<div id="adobe-dc-view" style="height: 600px; width: 800px;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function() {
+        var adobeDCView = new AdobeDC.View({
+            clientId: "2f4f441ef6f741d988a5fcf60d418dd1",
+            divId: "adobe-dc-view"
+        });
+        adobeDCView.previewFile({
+            content: {
+                location: {
+                    url: "./{{ index .Params 0 }}"
+                }
+            },
+            metaData: {
+                fileName: "{{ index .Params 0 }}"
+            }
+        }, {
+            embedMode: "SIZED_CONTAINER"
+        });
+    });
+</script>
+{{else}}
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function() {
+        var adobeDCView = new AdobeDC.View({
+            clientId: "96f91038b3ee4fb4895d9478258809fb",
+            divId: "adobe-dc-view"
+        });
+        adobeDCView.previewFile({
+            content: {
+                location: {
+                    url: "./{{ index .Params 0 }}"
+                }
+            },
+            metaData: {
+                fileName: "{{ index .Params 0 }}"
+            }
+        }, {
+            embedMode: "SIZED_CONTAINER"
+        });
+    });
+</script>
+{{end}}
