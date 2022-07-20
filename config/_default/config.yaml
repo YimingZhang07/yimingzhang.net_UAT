@@ -66,6 +66,9 @@ markup:
     endLevel: 4
     ordered: false
     startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
 related:
   threshold: 80
   includeNewer: true
