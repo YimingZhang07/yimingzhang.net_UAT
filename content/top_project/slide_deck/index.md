@@ -40,11 +40,11 @@ This is a collection of some presentation slides I made at Communication and MSC
 
 Click to preview with your browser or download it. Only the first deck is embedded for you preview.
 
-:arrow_right:[Opportunities in Fixed Income Market](./investment_idea.pdf) April 2022, advocating some investment chances for fixed income
-
-{{<adobe_inline "investment_idea.pdf">}}
-
 :arrow_right:[Shifting Stars](./shifting_stars.pdf) a view of monetary policy. How does the Fed measure if the economy is overheating or not?
+
+{{<adobe_inline "shifting_stars.pdf">}}
+
+:arrow_right:[Opportunities in Fixed Income Market](./investment_idea.pdf) April 2022, advocating some investment chances for fixed income
 
 :arrow_right:[ESG Investing](./sustainable_investment.pdf) the idea of ESG factors and how it can improve the investment performance
 

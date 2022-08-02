@@ -25,7 +25,14 @@ tags:
 
 categories:
   - Tricks
+
+
+toc: true
 ---
+
+
+
+{{<toc>}}
 
 ## Netlify
 
