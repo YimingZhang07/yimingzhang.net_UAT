@@ -27,14 +27,14 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Finance
-      tag: Finance
-    - name: Deep Learning
-      tag: Deep Learning
+    - name: Machine Learning
+      tag: Machine Learning
     - name: Time Series
       tag: Time Series
+    - name: Statistics
+      tag: Statistics
     - name: Other
-      tag: other
+      tag: Other
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
